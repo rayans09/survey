@@ -1,21 +1,20 @@
-<!DOCTYPE html> 
 <html >
 <head>
-    <link rel="stylesheet" href="sur.css">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="refresh" content="10">
 </head>
     
 <body style="background-color:aqua;">
-    <h1 style="text-align: center;"> Survey  Form fdzdzd</h1>
+    <h1 style="text-align: center; padding-top:10px; "> Survey  Form</h1>
     <div>
         <br>
     <h3 >Tell Somthing About You</h3>
     <p >donner des information sur vous</p>
     <form >
-        Name   : <input type="text" name="fullname" align-item="center" ><br><br>
-        Email  : <input type="text" name="email"><br><br>
-        Age    : <input type="number" name="age"><br><br>
-        wich option discribes best your current role : 
+        <label>Name</label> <input type="text" name="fullname" align-item="center" placeholder="Name" ><br><br>
+        <label>Email</label> <input type="text" name="email" placeholder="Email" ><br><br>
+        <label> Age </label> <input type="number" name="age"placeholder="Age" ><br><br>
+        <label>wich option discribes best your current role :</label> 
         <input list="type" name="type"><br><br>
         <datalist id="type">
             <option value="Student">
@@ -23,13 +22,12 @@
             <option value="unemployed">
         </datalist>
                 
-               Definitely:  <input type="radio" name="recommendation" value="Definitely"><br><br>
-                 Maybe: <input type="radio" name="recommendation" value="Maybe"><br><br>
-                 Not sur: <input type="radio" name="recommendation" value="Not sur"><br><br>
+               <label>Definitely:</label><input type="radio" name="recommendation" value="Definitely"><br><br>
+                 <label>Maybe:</label> <input type="radio" name="recommendation" value="Maybe"><br><br>
+                 <label>Not sur:</label> <input type="radio" name="recommendation" value="Not sur"><br><br>
         
                     </form>
     </div>
 </body>
 
 </html>
- 

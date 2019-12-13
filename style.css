@@ -8,3 +8,14 @@ div{
     margin-top:25px;
     font-family:"Times New Roman", serif;
 }
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
