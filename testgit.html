@@ -1,15 +1,35 @@
-<html>
+<!DOCTYPE html> 
+<html >
 <head>
-	<meta charset="utf-8">
-	<title>test github</title>
+    <link rel="stylesheet" href="sur.css">
+    <meta charset="utf-8">
 </head>
-<body style="background-color:aqua">
-	<h1>MON PREMIER HEADER</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+<body style="background-color:aqua;">
+    <h1 style="text-align: center;"> Survey  Form</h1>
+    <div>
+        <br>
+    <h3 >Tell Somthing About You</h3>
+    <p >donner des information sur vous</p>
+    <form >
+        Name   : <input type="text" name="fullname" align-item="center" ><br><br>
+        Email  : <input type="text" name="email"><br><br>
+        Age    : <input type="number" name="age"><br><br>
+        wich option discribes best your current role : 
+        <input list="type" name="type"><br><br>
+        <datalist id="type">
+            <option value="Student">
+            <option value="Worker">
+            <option value="unemployed">
+        </datalist>
+                
+               Definitely:  <input type="radio" name="recommendation" value="Definitely"><br><br>
+                 Maybe: <input type="radio" name="recommendation" value="Maybe"><br><br>
+                 Not sur: <input type="radio" name="recommendation" value="Not sur"><br><br>
+        
+                    </form>
+    </div>
 </body>
+
 </html>
+ 
